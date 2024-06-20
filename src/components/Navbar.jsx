@@ -28,7 +28,7 @@ const Navbar = () => {
                 </ul>
                 <div className='flex items-center relative'>
                      <input className='border-2 border-white custom-glow placeholder-gray-400 p-1' placeholder='Search...' type="text" name="text" id="" />
-                        <button className='cursor-pointer absolute search-img'>
+                       <button className='cursor-pointer absolute search-img'>
                             <lord-icon
                                 src="https://cdn.lordicon.com/fkdzyfle.json"
                                 trigger="click"

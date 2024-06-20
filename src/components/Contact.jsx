@@ -4,7 +4,7 @@ import { FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
 const Contact = () => {
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center">
-      <div className="bg-cover bg-center w-full h-64" style={{ backgroundImage: "url('https://source.unsplash.com/1600x900/?nature,water')" }}>
+      <div className="bg-cover bg-center w-full h-64" style={{ backgroundImage: "url('/images/natureImg.jpg')" }}>
         <div className="bg-black bg-opacity-50 w-full h-full flex items-center justify-center">
           <h1 className="text-4xl text-white font-bold">Contact Us</h1>
         </div>

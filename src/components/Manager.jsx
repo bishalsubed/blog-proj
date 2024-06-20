@@ -10,8 +10,8 @@ const Manager = () => {
                     <div className='font-semibold text-3xl hover:cursor-pointer'>Welcome To Idea<span className='text-green-500'>Arena</span></div>
                     <div className='text-gray-700'>Step into a realm where curiosity knows no bounds. Dive into a world of captivating narratives, enriching insights, and boundless creativity. Join our community of avid explorers as we traverse the landscapes of knowledge and imagination. Embark on a journey where every click unlocks a new adventure, every word sparks inspiration, and every moment brings connection.</div>
                     <div className="buttons flex gap-5">
-                        <button className='border border-gray-800 text-white bg-gray-800 p-3 font-semibold hover:bg-gray-700 rounded-md'>Explore Blogs</button>
-                        <button className='border border-gray-300 p-3 bg-gray-300 font-semibold hover:bg-gray-400 rounded-md'>Express Yourself</button>
+                        <Link to='/blogs'><button className='border border-gray-800 text-white bg-gray-800 p-3 font-semibold hover:bg-gray-700 rounded-md'>Explore Blogs</button></Link>
+                        <Link to='/express'><button className='border border-gray-300 p-3 bg-gray-300 font-semibold hover:bg-gray-400 rounded-md'>Express Yourself</button></Link>
                     </div>
                 </div>
                 <div className='w-1/2 flex flex-col justify-center items-center'>
