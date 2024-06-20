@@ -1,0 +1,13 @@
+.custom-glow:focus {
+    box-shadow: 0 0 4px 1px rgba(72, 207, 173, 0.6);
+    outline: none;
+    border-radius: 6px; 
+    border-color: rgba(22, 163, 74, 1);
+}
+
+.search-img{
+    top: 9%;
+    right: 50%;
+    left: 76%;
+}
+
