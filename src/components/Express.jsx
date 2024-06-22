@@ -58,7 +58,7 @@ const Express = () => {
                 theme="dark"
                 transition="Bounce" />
             <ToastContainer />
-            <div className="min-h-[88vh] bg-gray-100 flex flex-col items-center justify-center">
+            <div className="md:min-h-[88vh] bg-gray-100 flex flex-col items-center justify-center">
                 <div className="container mx-auto">
                     <div className="bg-white p-8 rounded-lg shadow-lg max-w-3xl mx-auto">
                         <h2 className="text-2xl font-bold text-center mb-6">Compose a Post</h2>
